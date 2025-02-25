@@ -1,6 +1,7 @@
 from formularios.form_maestro_design import FormularioMaestroDesign
 
-app = FormularioMaestroDesign()
-app.mainloop()
+if __name__ == "__main__":
+    app = FormularioMaestroDesign()
+    app.mainloop()
 
 
